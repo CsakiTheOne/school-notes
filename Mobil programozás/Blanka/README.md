@@ -1,8 +1,24 @@
 # Időpont foglalós alkalmazás
 
-[Ihlet: Pony bar](https://ponybar.hu/fooldal/szolgaltatasok/)
+- [Időpont foglalós alkalmazás](#időpont-foglalós-alkalmazás)
+  - [Ihletek](#ihletek)
+  - [Specifikáció](#specifikáció)
+  - [Technikai megoldások](#technikai-megoldások)
+    - [Firestore database felépítése](#firestore-database-felépítése)
+    - [Tech magyarázat](#tech-magyarázat)
+  - [Felmerülő kérdések](#felmerülő-kérdések)
+  - [Java vagy Kotlin?](#java-vagy-kotlin)
+    - [Java - az ismerős](#java---az-ismerős)
+    - [Kotlin - a modern](#kotlin---a-modern)
+    - [Egyéb megjegyzések](#egyéb-megjegyzések)
+  - [Hogy kapcsoljuk a felületet logikához?](#hogy-kapcsoljuk-a-felületet-logikához)
+  - [Android stuff](#android-stuff)
 
-[Ihlet: Braid me and more](https://braidmeandmore.hu/)
+## Ihletek
+
+[Pony bar](https://ponybar.hu/fooldal/szolgaltatasok/)
+
+[Braid me and more](https://braidmeandmore.hu/)
 
 ## Specifikáció
 
@@ -143,3 +159,17 @@ Hátrányok
 - mindkét nyelv tud hivatkozni a másikra: Java-ban meg lehet hívni Kotlin függvényeket és Kotlinban lehet használni Java osztályokat
 - mindkettő bytecodera fordul, tehát az újabb nyelv NEM egy plusz réteg, hanem egy lehetőség
 - az Android Studio a C++-t is támogatja szóval 3 lehetőség van, de szerintem abban nem akartok dolgozni xd
+
+## Hogy kapcsoljuk a felületet logikához?
+
+- XML
+  - hagyománys módszer: hasonlít a JavaScriptes `document.getElementById()`-hoz
+  - **Kotlin extension: egyszerű, könnyen olvasható, de nem ajánlott, mert sok hibalehetőség van benne ha figyelmetlen az ember**
+  - **viewBinding: ajánlott módszer, kevesebb hibalehetőség, de kissé macerás a setup**
+- Jetpack Compose: brutál menő, nagyon modern, de még nagyon kiforratlan és nagyon más gondolkodást igényel
+
+Amit vastaggal jelöltem, azokat tartom olyannak, hogy nektek jó lehet, de felsoroltam minden lehetőséget, hátha...
+
+## Android stuff
+
+- [Design nyelv, amit használni fogunk](https://m3.material.io/)
