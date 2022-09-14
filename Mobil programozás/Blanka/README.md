@@ -12,6 +12,8 @@
     - [Kotlin - a modern](#kotlin---a-modern)
     - [Egyéb megjegyzések](#egyéb-megjegyzések)
   - [Hogy kapcsoljuk a felületet logikához?](#hogy-kapcsoljuk-a-felületet-logikához)
+    - [XML](#xml)
+    - [Jetpack Compose](#jetpack-compose)
   - [Android stuff](#android-stuff)
 
 ## Ihletek
@@ -155,20 +157,56 @@ Hátrányok
 - több előnyt írtam Kotlinhoz... komolyan? manipuláció? NEM, tényleg ennyi jutott eszembe és szeretném, hogy ez a ti döntésetek legyen és **teljesen számíthattok rám** akkor is ha a Javát választjátok. ezeket csak azért írtam, hogy átláthatóbb legyen a két lehetőség
 - mindkét nyelvet jól ismeri az internet és a fiatal Kotlinhoz is már rengeteg stackoverflow válasz érkezett
 - a hivatalos Android és Firebase dokumentációkban mindkét nyelvre vannak példa kódok
-- a Java régebb óta jelen van ezért lehet, hogy csak ebben a nyelvben találunk megoldást... de ez nem baj! másolás, beleillesztés a kt fájlba és az Android Studio átírja magától a Java kódot Kotlinra
+- a Java régebb óta jelen van, ezért lehet, hogy csak ebben a nyelvben találunk megoldást... de ez nem baj! másolás, beleillesztés a kt fájlba és az Android Studio átírja magától a Java kódot Kotlinra
 - mindkét nyelv tud hivatkozni a másikra: Java-ban meg lehet hívni Kotlin függvényeket és Kotlinban lehet használni Java osztályokat
 - mindkettő bytecodera fordul, tehát az újabb nyelv NEM egy plusz réteg, hanem egy lehetőség
 - az Android Studio a C++-t is támogatja szóval 3 lehetőség van, de szerintem abban nem akartok dolgozni xd
 
 ## Hogy kapcsoljuk a felületet logikához?
 
-- XML
-  - hagyománys módszer: hasonlít a JavaScriptes `document.getElementById()`-hoz
-  - **Kotlin extension: egyszerű, könnyen olvasható, de nem ajánlott, mert sok hibalehetőség van benne ha figyelmetlen az ember**
-  - **viewBinding: ajánlott módszer, kevesebb hibalehetőség, de kissé macerás a setup**
-- Jetpack Compose: brutál menő, nagyon modern, de még nagyon kiforratlan és nagyon más gondolkodást igényel
+### XML
+
+```xml
+<ScrollView
+  android:width="match_parent"
+  android:height="match_paent">
+  <LinearLayout
+    android:width="match_parent"
+    android:height="wrap_content"
+    android:orientation="vertical">
+    <!-- elemek a görgethető részben -->
+  </LinearLayout>
+</ScrollView>
+```
+
+- hagyománys módszer: hasonlít a JavaScriptes `document.getElementById()`-hoz
+
+`findViewById(R.id.buttonLogin)`
+
+- **Kotlin extension: egyszerű, könnyen olvasható, de nem ajánlott, mert sok hibalehetőség van benne ha figyelmetlen az ember**
+
+`buttonLogin`
+
+- **viewBinding: ajánlott módszer, kevesebb hibalehetőség, de kissé macerás a setup**
+
+`binding.buttonLogin`
 
 Amit vastaggal jelöltem, azokat tartom olyannak, hogy nektek jó lehet, de felsoroltam minden lehetőséget, hátha...
+
+### Jetpack Compose
+
+Brutál menő, nagyon modern, de még nagyon kiforratlan és nagyon más gondolkodást igényel.
+
+```kotlin
+Column(
+  modifier = Modifier
+    .verticalScroll(rememberScrollState())
+) {
+  // elemek a görgethető részben
+}
+```
+
+Ha nagyon merészek vagytok, akkor a Jetpack Compose-t is választhatjátok. Vannak benne lusta elemek, automatikusan reagál a UI az adat változásra, lehet tesztelni a UI-t telefonra rakás előtt és nem lesznek a projektben idegesítő, statikus XML fájlok. De ezt tényleg csak ha bevállalósak vagytok!
 
 ## Android stuff
 
