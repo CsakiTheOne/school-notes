@@ -45,6 +45,9 @@ Valami ilyesmi
   - szolgáltatás azonosítója
   - szöveg
   - értékelés (szám)
+- felhasználók
+  - **id**
+  - név (ha email jelszó kombós módon jelentkeztek be)
 
 ### Tech magyarázat
 
@@ -70,9 +73,15 @@ Egy fájl adatbázis. Olyan mintha egy FTP szerver lenne. Teljesen jó lesz kép
 
 ## Felmerülő kérdések
 
-> Miért tároljuk külön az üzletet vagy szolgáltatást a kommentjeitől és értékeléseitől?
-
+<details>
+<summary>Miért kéne külön tárolni az üzletet vagy szolgáltatást a kommentjeitől és értékeléseitől?</summary>
 Lesznek az alkalmazásban felületek, ahol üzletek vagy szolgáltatások listája jelenik meg. Ha minden alkalommal betöltenénk ezekhez a kommenteket akkor az fölöslegesen sok netet használna. Így viszont betölthető teljesen külön minden egymástól. (Pl.: Nem töltenek be a kommentek, amíg le nem görget a felhasználó odáig.)
+</details>
+
+<details>
+<summary>Mivel jelentkezzenek be a felhasználók?</summary>
+A Firebase sokmindenben tud segíteni. A legegyszerűbb az email jelszó kombós megoldás és a Google fiókos bejelentkezés sem vészes. Viszont nem akar mindenki kommentelni, adhatunk lehetőséget a bejelentkezés kihagyására. Van is lehetőség anonim bejelentkezésre. Várjunk, az minek? Nem elég simán kihagyni. A jogosultságok miatt és az adatbázis biztonsága érdekében ajánlott használni ezt.
+</details>
 
 ## Java vagy Kotlin?
 
@@ -94,6 +103,7 @@ Előnyök
 
 - ismerős: ezt már tanultuk
 - tanár jobban ismeri, jobban tud segíteni
+- több tartalom a neten (de ez nem nagy előny, mert ha Java kódot másolsz Kotlin fájlba akkor az Android Studio (és még pár program is) automatikusan átírja Kotlinra)
 
 Hátrányok
 
@@ -117,7 +127,7 @@ Előnyök
 - átlátható, egyszerű, könnyen olvasható
 - modern nyelv funkciók, mint például adat osztályok, extension függvények
 - null biztonság: futtatás előtt szól ha valahol null refrence exception lehet
-- Csáki boldog :D
+- (Csáki boldog :D)
 
 Hátrányok
 
@@ -126,8 +136,10 @@ Hátrányok
 
 ### Egyéb megjegyzések
 
+- több előnyt írtam Kotlinhoz... komolyan? manipuláció? NEM, tényleg ennyi jutott eszembe és szeretném, hogy ez a ti döntésetek legyen és **teljesen számíthattok rám** akkor is ha a Javát választjátok. ezeket csak azért írtam, hogy átláthatóbb legyen a két lehetőség
 - mindkét nyelvet jól ismeri az internet és a fiatal Kotlinhoz is már rengeteg stackoverflow válasz érkezett
 - a hivatalos Android és Firebase dokumentációkban mindkét nyelvre vannak példa kódok
 - a Java régebb óta jelen van ezért lehet, hogy csak ebben a nyelvben találunk megoldást... de ez nem baj! másolás, beleillesztés a kt fájlba és az Android Studio átírja magától a Java kódot Kotlinra
 - mindkét nyelv tud hivatkozni a másikra: Java-ban meg lehet hívni Kotlin függvényeket és Kotlinban lehet használni Java osztályokat
 - mindkettő bytecodera fordul, tehát az újabb nyelv NEM egy plusz réteg, hanem egy lehetőség
+- az Android Studio a C++-t is támogatja szóval 3 lehetőség van, de szerintem abban nem akartok dolgozni xd
