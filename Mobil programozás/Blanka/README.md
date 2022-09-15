@@ -38,6 +38,8 @@ Blankánál
     - szolgáltatások és árak
     - időpont foglalás
     - kommentek és értékelések (az üzletektől és szolgáltatásoktól KÜLÖN)
+  - Realtime database
+    - chat az üzlettel
   - Storage
     - képek a kommentekhez
 
@@ -179,7 +181,7 @@ Hátrányok
 </ScrollView>
 ```
 
-- hagyománys módszer: hasonlít a JavaScriptes `document.getElementById()`-hoz
+- hagyománys módszer: hasonlít a JavaScriptes `getElementById()`-ra
 
 `findViewById(R.id.buttonLogin)`
 
