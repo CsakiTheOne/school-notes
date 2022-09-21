@@ -29,3 +29,23 @@ Számonkérés anyaga:
 
 Projekt: AgroFuture
 Csk.: Csáki
+
+STP model?
+
+### Célcsoport vizsgálat
+
+- nagyipari farmerek
+- önfertartó termelők
+- kertészkedést kedvelő magánszemélyek
+
+Jellemzők:
+
+- fiatal / közép korosztály
+- világon bárhol
+- hobbi kertészeknél bármilyen életkor lehet
+
+Ajánlat:
+
+- nem kell olcsónak lennie
+- a minőség fontosabb szempont, mint az ár
+- talán 1-2 olcsóbb, kisebb termék a hobbi kertészeknek
