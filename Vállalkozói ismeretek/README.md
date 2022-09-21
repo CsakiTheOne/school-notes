@@ -27,8 +27,6 @@ Számonkérés anyaga:
 
 ## Csapatmunka
 
-| Projekt        | Okos farm eszközök |
-| -------------- | ------------------ |
-| Csapatkapitány | Csákesz            |
-
-El kell küldeni a projekt lényegét fél oldalban és csapat tagokat email-re: nemeth.eszter.julia@gtk.uni-pannon.hu kedd este 7-ig.
+| Projekt        | AgroFuture |
+| -------------- | ---------- |
+| Csapatkapitány | Csákesz    |
