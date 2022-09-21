@@ -27,6 +27,5 @@ Számonkérés anyaga:
 
 ## Csapatmunka
 
-| Projekt        | AgroFuture |
-| -------------- | ---------- |
-| Csapatkapitány | Csákesz    |
+Projekt: AgroFuture
+Csk.: Csáki
