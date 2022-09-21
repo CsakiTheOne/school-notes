@@ -49,3 +49,7 @@ Ajánlat:
 - nem kell olcsónak lennie
 - a minőség fontosabb szempont, mint az ár
 - talán 1-2 olcsóbb, kisebb termék a hobbi kertészeknek
+
+Tanár javaslata:
+
+Fontos a fenntarthatóság és világ vízkészleteinek szemelőtt tartása.
