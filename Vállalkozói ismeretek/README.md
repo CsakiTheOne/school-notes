@@ -66,3 +66,13 @@ Feladatok következő alkalomra:
 - versenytársak felsorolása
 - rövid bemujtatás
 - források bemutatása
+
+Potenciális versenytársak
+
+- allMeteo
+- Pycno
+- Growlink
+- Arable
+- Infarm
+- VoltDB
+- LumiGrow
