@@ -76,3 +76,6 @@ Potenciális versenytársak
 - Infarm
 - VoltDB
 - LumiGrow
+- Smart Farming
+- Ubidots
+- Next Farming
