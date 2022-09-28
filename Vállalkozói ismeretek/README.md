@@ -79,3 +79,4 @@ Potenciális versenytársak
 - Smart Farming
 - Ubidots
 - Next Farming
+- MOKOSmart
