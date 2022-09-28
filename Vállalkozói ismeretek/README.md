@@ -53,3 +53,16 @@ Ajánlat:
 Tanár javaslata:
 
 Fontos a fenntarthatóság és világ vízkészleteinek szemelőtt tartása.
+
+### Versenytársak elemzése, piacvizsgálat
+
+- módszerek
+  - porter five forces / porter 5 erő
+  - BCG mátrix
+  - Shell mátrix
+
+Feladatok következő alkalomra:
+
+- versenytársak felsorolása
+- rövid bemujtatás
+- források bemutatása
