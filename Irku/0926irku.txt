@@ -1,0 +1,39 @@
+Ubuntu3.rar --> jelszó: nopassword
+Hálózat --> Nat hálózat
+login: zh
+password: admin123
+
+parancsok:
+sudo -s
+
+-----------------------------ip config beállítás------------------------------------------
+ip a
+nano /etc/netplan/00-tab
+ip address 192.168.1.100
+gateway 192.168.1.1
+DNS: 192.6.32.101
+
+netplan apply
+
+-----------------------------csomag telepítés----------------------------------------------------------
+apt install net-tools
+apt-get update --fix-missing
+apt install mc 
+apt install openssh-server
+apt install samba (server message block)
+apt install squid
+apt install nfs-kernel-server
+apt install nfs-common
+
+ifconfig
+
+dmesg | more
+dmesg | grep sda (| --> jobb shift + ű)
+
+ps -aux | grep sshd 
+ps -aux | grep squid
+ps -aux | grep smbd
+ps -aux | grep snmbd
+
+hirensbootcd --> password feltöréshez
+

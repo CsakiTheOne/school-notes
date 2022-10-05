@@ -8,7 +8,7 @@
   - határidő: 2022. 11. 25. 20:00
 - egyéni feladat
   - heti moodle tesztek
-  - maximum 1 mulasztás
+  - maximum 1 mulasztás `// elbaszva, innentől nem lehet skip`
   - pont nem számít
   - határidő: minden hét vasárnapig
 - szemináriumi látogatás
@@ -80,3 +80,31 @@ Potenciális versenytársak
 - Ubidots
 - Next Farming
 - MOKOSmart
+
+### Termelési / Szolgáltatási terv
+
+- Konkrét termékek és szolgáltatások
+- Telephelyek, eszközök
+
+Feladat: szükséges eszközök, erőforrások felsorolása és árazás
+
+- eszközök, erőforrások
+  - mi tervezzük az eszközöket, de a gyártást nem mi végezzük
+    - gyárra nincs szükségünk
+    - raktárak kellenek
+    - kutató létesítmény (akár a telephelyünkön) az eszközök teszteléséhez, vizsgálatához, fejlesztéséhez
+  - hardveres cégektől rendeljük a cuccokat (olcsó alkatrészek, nagy mennyiségben)
+    - [JLCPCB](https://jlcpcb.com/)
+  - rendelés és szállítás
+    - webshop
+    - szállító cégek pl.: Hirvi
+  - humán erőforrások
+    - HR
+    - support
+    - marketingesek
+    - könyvelők
+    - szoftverfejlesztők
+    - villamosmérnökök
+    - gépészek
+- árazás
+  - nagyobb méretű rendelésekhez kedvezményre van lehetőség
