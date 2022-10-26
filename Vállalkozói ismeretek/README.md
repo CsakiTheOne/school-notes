@@ -108,3 +108,33 @@ Feladat: szükséges eszközök, erőforrások felsorolása és árazás
     - gépészek
 - árazás
   - nagyobb méretű rendelésekhez kedvezményre van lehetőség
+
+### Piacra lépés
+
+- reklámok
+  - Google kiemelés
+  - közösségi felületek (Instagram, TikTok)
+  - payed review
+  - szponzorálás
+    - Farming Simulator játékosok (YouTube, Twitch)
+    - elektronikai eszközökkel foglalkozó videósok (pl. DIY or buy)
+
+### Árazás
+
+- felső kategóriában határozottak vagyunk, fix áraink vannak
+- alsó / magánszemélyeknek szánt kategóriában alkalmazkodóbbak vagyunk
+
+árképző elemek:
+
+- költségek (+)
+  - alapanyag
+    - újrahasznosítás fontos szempont (-)
+  - raktározás
+  - szállítás
+    - alapanyagok be
+    - kész termékek ki
+  - reklámok
+  - fejlesztés
+  - támogatás / support
+- alkalmazottak bére (+)
+- profit beszámítása (+)
