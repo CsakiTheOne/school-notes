@@ -138,3 +138,29 @@ Feladat: szükséges eszközök, erőforrások felsorolása és árazás
   - támogatás / support
 - alkalmazottak bére (+)
 - profit beszámítása (+)
+
+### Pénzügyi tervezés
+
+(Jövő órán jön az utolsó blokk, amit a beadandóba írni kell.)
+
+- előzetes jövedelem- és eredménykimutatás terv 3 évre havi bontásban
+- pénzforgalom / likviditás előrejelzés 3 évre
+- előzetes mérleg
+  - nyitó állapot
+  - 3 évre
+  - éves bontásban
+- Nem kötelező: NPV (nettó jelenérték), IIR/BMR (belső megtérülési ráta)
+- szükséges pénzforrások
+  - kell hitel?
+
+Feladat következő alkalomra:
+
+- költségek tervezése
+  - állandó, változó
+  - szezonalitás
+  - évekre bontva 3 évben mi a helyzet
+- Excel próbálkozás
+
+Most kéne feladat:
+
+fix és változó költésgek
