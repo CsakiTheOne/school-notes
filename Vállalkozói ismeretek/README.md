@@ -104,8 +104,9 @@ Feladat: szükséges eszközök, erőforrások felsorolása és árazás
     - marketingesek
     - könyvelők
     - szoftverfejlesztők
-    - villamosmérnökök
-    - gépészek
+    - villamosmérnökök (fizikai)
+    - gépészek (fizikai)
+    - 6 szellemi, 3 fizikai
 - árazás
   - nagyobb méretű rendelésekhez kedvezményre van lehetőség
 
