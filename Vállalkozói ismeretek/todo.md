@@ -2,6 +2,8 @@
 
 [Doksi](https://docs.google.com/document/d/125mjtyYuYb7ScmtUPbMukq8ktglYJzuLzgfpBVQyus8/edit?usp=sharing)
 
+Terjedelem: 30-50 oldal
+
 - Felépítés
   - [ ] Bevezető oldal
     - [ ] Előlap
@@ -9,7 +11,7 @@
     - [ ] Fontosabb azonosítók táblázatos formában
       - [ ] Vállalkozás azaonosítói, adatai
         - [ ] Székhely
-        - [ ] Jogi forma
+        - [ ] Jogi forma: `Rt?`
         - [ ] Bankszámlaszám: `11773487-01636022-00000000`
         - [ ] Adószám: `[0-9]{8}-[0-9]-[0-9]{2}` (törzsszám-áfakód-megye)
       - [ ] Fantáziacím
@@ -36,3 +38,4 @@
 
 - November 30.
 - ~10 perces előadás
+- bármilyen formátum
