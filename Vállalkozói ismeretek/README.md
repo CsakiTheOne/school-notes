@@ -165,6 +165,3 @@ Feladat következő alkalomra:
 Most kéne feladat:
 
 fix és változó költésgek
-
-###  (utolsó anyagrész)
-
