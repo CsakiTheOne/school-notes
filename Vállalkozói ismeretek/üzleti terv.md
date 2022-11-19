@@ -50,7 +50,7 @@
 
 ## Bevezetés
 
-| Név            | Agr  - Future                   |
+| Név            | AgroFuture                    |
 | -------------- | ----------------------------- |
 | Székhely       | Veszprém                      |
 | Jogi forma     | Korlátolt Felelőségű Társaság |
@@ -117,11 +117,6 @@ Célcsoprotunk bárki aki mezőgazdasággal növénytermesztéssel fogalalkozik 
 Sikeres cégek úgy határozzák meg tevékenységüket, hogy azt is belefoglalják ki a célpiacuk. Például könyvelés kiskereskedők számára vagy luxusnövények a felső tízezer számára vagy üzleti angol ügyvédeknek stb.
 Hiba: a túl széles célszegmens meghatározás, a túl sokféle vevővel való kapcsolat, mert csak általános mondanivalóval lehetséges. Általános mondanivalónak gyenge marketingüzenete van a cégre nézve.
 A célszegmens kiválasztásánál fontos, hogy könnyen, olcsón lehessen vele kapcsolatot teremteni, kommunikálni.
-
-STP-stratégia
-SZEGMENTÁCIÓ CÉLPIACOK
-KIVÁLASZTÁSA
-POZÍCIONÁLÁS
 
 1. Szegmentációs ismérvek kiválasztásaú
 2. Szegmensek jellemzése
@@ -257,7 +252,7 @@ Tevékenysége:
 
 A PC Agrár Kft. minden szolgáltatása német nyelven is igénybe vehető, amely természetesen a könyveléssel kapcsolatos táblázatokat, elemzéseket is magába foglalja (főkönyvi kivonat, mérleg stb.). A PC Agrár Kft a következő, széleskörű szolgáltatásokat kínálja: - Könyvelés - Agrár-Office - Az integrált mezőgazdasági szoftvercsomag - Segítségnyújtás a mezőgazdasági vállalatok, egyéni gazdák felkészítéséhez az EU tagsággal előálló új helyzetre és tájékoztatás az igényelhető uniós támogatásokról - Információszolgáltatás, tanácsadás és oktatás - Projekttervezés és irányítás - Segítségnyújtás támogatási pályázatok elkészítéséhez - Üzemi számítástechnikai állapot felmérése és kiépítése - Tanácsadás a termelés irányításához és tervezéséhez - Üzemgazdasági tanácsadás - Adatrögzítés- és kiértékelés koordinálása kisebb üzemek és egyéni gazdák esetében
 
-| Pycn  -              |               |
+| Pycn  -            |               |
 | ------------------ | ------------- |
 | Alapítás           | 2014          |
 | Székhely           | Spanyolország |
@@ -268,12 +263,12 @@ Tevékenysége:
 
 Vezeték nélküli termőföld szenzorok gyártása és ezekhez szoftver felület fejlesztése, ezekhez az eszközökhöz nyújtanak háttér támogatást. Több információval szolgál a földek állapotáról így pontosabb jobb tápanyag és csapadék adagolást tudnak biztosítani. Növelik a termékenységet és csökkentik az erőforrás felhasználását. Ezáltal ők is figyelnek a fenntarthatóságra.
 
-| LumiGrow           |               |
-| ------------------ | ------------- |
-| Alapítás           | 2007          |
+| LumiGrow           |                 |
+| ------------------ | --------------- |
+| Alapítás           | 2007            |
 | Székhely           | California, USA |
-| Tulajdonosok száma | 2 fő          |
-| Árbevétel          | 19 500 000$      |
+| Tulajdonosok száma | 2 fő            |
+| Árbevétel          | 19 500 000$     |
 
 Tevékenysége:
 
