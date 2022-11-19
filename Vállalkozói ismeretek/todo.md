@@ -31,8 +31,7 @@ Terjedelem: 30-50 oldal
     - [ ] Konklúzió, összefoglaló, személyes benyomások az elemzésekről
   - [ ] Mellékletek
     - [ ] Bármi, amit jónak látunk
-    - [ ] Szerelmes vers a tanárnőnek
-    - [ ] Apa pincepörkölt receptje
+    - [ ] Excel táblázatról screenshot-ok
 
 ## Prezentálás
 
