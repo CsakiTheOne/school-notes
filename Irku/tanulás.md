@@ -2,9 +2,9 @@
 
 ## Teendők
 
-- [ ] tananyag videók megnézése (14/21+4)
+- [ ] tananyag videók megnézése (15/25)
 - [ ] zh fájlok előkészítése
-  - [ ] letöltés
+  - [x] letöltés
   - [ ] importálás VirtualBox-ba
   - [ ] kipróbálás
 - [ ] puska pendrive előkészítése
@@ -20,11 +20,37 @@
 - [x] virtualizacio
 - [x] virtualbox (4)
 - [x] freenas (3)
-- [ ] ubuntu (0/7)
-- [ ] sysresccd (1/3) (óráról nem ismerős, kihagyom)
-- [ ] cms (1/3) (óráról nem ismerős, kihagyom)
+- [ ] ubuntu (1/7)
+- [ ] sysresccd (1/3)
+- [ ] cms (1/3)
 
 ## Jegyzetek
+
+### Ubuntu
+
+#### Telepítés
+
+enp0s3 > Edit IPv4 > Manual
+
+```
+Subnet:       192.168.1.0/24
+Address:      192.168.1.150
+Gateway:      192.168.1.1
+Name servers: 193.6.33.2
+```
+
+(X) Custom storage layout
+
+1. lemez
+   1. `1G /boot`
+   2. `1G Format: swap`
+   3. maradék `/`
+2. Create software RAID (md)
+   1. RAID Level: 1 (mirrored)
+   2. mindkét maradék lemezt kijelöljük
+   3. md0: összes hely `/tukor`
+
+Név, jelszó, stb. megadása, nem kell semmi, mehet a telepítés aztán reboot kísérlet és bezárás ha nem megy.
 
 ### cloud_2.mp4
 
