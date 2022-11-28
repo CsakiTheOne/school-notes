@@ -2,15 +2,15 @@
 
 ## Teendők
 
-- [ ] tananyag videók megnézése (15/25)
+- [ ] tananyag videók megnézése (16/25)
 - [ ] zh fájlok előkészítése
   - [x] letöltés
   - [ ] importálás VirtualBox-ba
   - [ ] kipróbálás
 - [ ] puska pendrive előkészítése
-  - [ ] videók
-  - [ ] megmentő.txt
-  - [ ] zh fájlok
+  - [x] videók
+  - [x] megmentő.txt
+  - [x] zh fájlok
   - [ ] linkek hasznos weboldalakra
 
 ## Videók
@@ -20,7 +20,7 @@
 - [x] virtualizacio
 - [x] virtualbox (4)
 - [x] freenas (3)
-- [ ] ubuntu (1/7)
+- [ ] ubuntu (2/7)
 - [ ] sysresccd (1/3)
 - [ ] cms (1/3)
 
@@ -51,6 +51,25 @@ Name servers: 193.6.33.2
    3. md0: összes hely `/tukor`
 
 Név, jelszó, stb. megadása, nem kell semmi, mehet a telepítés aztán reboot kísérlet és bezárás ha nem megy.
+
+#### Konfigurálás
+
+```
+sudo -s
+apt install net-tools
+cd /etc/netplan
+nano <fájl 00 kezdetű névvel>
+// fájlban 1 sort, a címet kell átírni: 192.168.1.151-re
+// mentés és kilépés
+netplan apply
+apt install openssh-server samba squid3 nfs-common nfs-kernel-server
+apt-get update --fix-missing
+apt install openssh-server samba squid3 nfs-common nfs-kernel-server
+```
+
+Leállítás: `halt` vagy `shutdown now`
+
+// innen nem tudtam tovább írni
 
 ### cloud_2.mp4
 
