@@ -7,6 +7,8 @@
         - [NFS Szerver](#nfs-szerver)
         - [NFS Kliens](#nfs-kliens)
       - [FTP](#ftp)
+        - [FTP Szerver](#ftp-szerver)
+        - [FTP Kliens](#ftp-kliens)
       - [SAMBA](#samba)
         - [SAMBA Szerver](#samba-szerver)
         - [SAMBA Kliens](#samba-kliens)
@@ -50,7 +52,17 @@ sudo mount szerver-címe:mappa cél-mappa
 
 #### FTP
 
-Windows FileZilla
+##### FTP Szerver
+
+```
+sudo apt install vsftpd
+# config állítgatás /etc/vsftpd.conf fájlban
+sudo systemctl restart vsftpd.service
+```
+
+##### FTP Kliens
+
+Nautilus fájlkezelőbe: `ftp://localhost`
 
 #### SAMBA
 
