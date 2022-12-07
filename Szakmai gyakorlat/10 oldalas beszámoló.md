@@ -2,10 +2,10 @@
 
 ## TODO
 
-- [ ] előlap elkészítése
-- [ ] tartalomjegyzék elkészítése
-- [ ] érdemi rész megírása (min. 10 oldal)
-  - [ ] fejlesztéshez használt szoftverek és eszközök
+- [x] előlap elkészítése
+- [x] tartalomjegyzék elkészítése
+- érdemi rész megírása (min. 10 oldal)
+  - fejlesztéshez használt szoftverek és eszközök
     - [x] Visual Studio Code
       - [x] Fontosabb bővítmények
     - [x] Git
@@ -16,8 +16,8 @@
     - [x] Xcode
     - [x] Android Studio
     - [x] Firebase
-      - [ ] FCM
-  - [ ] fejlesztéshez használt programnyelvek
+      - [x] FCM
+  - fejlesztéshez használt programnyelvek
     - [ ] JavaScript
     - [ ] TypeScript
     - [ ] Swift
@@ -83,6 +83,8 @@ A Firebase egy backend szolgáltatás, amely 2012-ben indult és a Google 2014-b
 
 ##### FCM
 
+Az FCM (azaz Firebase Cloud Messaging) szolgáltatás képes értesítéseket küldeni egy API segítségével a mi alkalmazásunkat használó eszközökre, legyen az bármilyen készülék, bármilyen operációs rendszerrel. Ha egy fejlesztő egyszerűen szeretne értesítést küldeni felhasználóinak, ez a legkézenfekvőbb módja, hogy megtegye. Android és iOS rendszereken is megoldható, hogy az alkalmazás akkor is tudjon üzeneteket fogadni, mikor az nincs az előtérben, Android-on mindezt plusz erőforrások használata nélkül, így tökéletes választás volt a projekthez.
+
 ### Fejlesztéshez használt programnyelvek
 
 #### JavaScript
@@ -94,3 +96,23 @@ A Firebase egy backend szolgáltatás, amely 2012-ben indult és a Google 2014-b
 #### Kotlin
 
 #### PHP
+
+### idealApp cross-platform alkalmazáskeret
+
+#### feladataim
+
+#### specifikáció
+
+#### kliens
+
+##### fontosabb használt könyvtárak
+
+###### react-native-device-info
+
+###### react-native-biometrics
+
+#### szerver
+
+##### cél
+
+#### dokumentáció
