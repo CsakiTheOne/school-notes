@@ -18,9 +18,9 @@
     - [x] Firebase
       - [x] FCM
   - fejlesztéshez használt programnyelvek
-    - [ ] JavaScript
-    - [ ] TypeScript
-    - [ ] Swift
+    - [x] JavaScript
+    - [x] TypeScript
+    - [x] Swift
     - [ ] Kotlin
     - [ ] PHP
   - [ ] idealApp cross-platform alkalmazáskeret
@@ -89,9 +89,17 @@ Az FCM (azaz Firebase Cloud Messaging) szolgáltatás képes értesítéseket k�
 
 #### JavaScript
 
+A JavaSciprt a web programnyelve, de egyre több helyen használják a weben kívül is. Electron-nal asztali alkalmazások fejlesztésére, node.js-sel vagy deno-val szerver oldali logika készítésére és természetesen React Native-vel natív alkalmazások fejlesztésére. A React Native egy új, szinte ismeretlen technológia volt még számomra. Mikor elkezdtem tanulni egyelőre az ismerősebb JavaScript nyelvvel ismertem meg az alapokat. Hamar megértettem, így át is váltottam a cél programnyelvre, amiben is a projektet készítettem el.
+
 #### TypeScript
 
+A TypeScipt egy 2012-ben a Microsoft által készített programnyelv, amit a legegyszerűbben úgy lehet leírni, hogy JavaScript típusokkal. A cégnél a TypeScript az elsődleges nyelv a frontend fejlesztésekhez, ezért én is ebben terveztem az alkalmazást megvalósítani. A React Native ezt is nagyon jól támogatja.
+
 #### Swift
+
+A Swift az Apple és a közösség által fejlesztett programnyelv, amit 2014-ben az Objective-C nyelv leváltására terveztek. Hogy a fejlesztőknek akadálymentes legyen az átmenet, az Xcode-ba az Apple olyan fordítót tett, amely lehetővé tette, hogy egy alkalmazásban C, Objectuve-C, C++ és Swift kód is legyen.
+
+A React Native elsődlehes nyelve a JavaScript vagy a TypeScript, de ha az alkalmazásunkba szeretnénk operációs rendszerhez közelebbi natív funkciókat, akkor ezt sem árt ismerni. A projekt során nem kellett sokszor natív kódhoz nyúlni, de kísérleteztem vele, hogy bővítsem az ismereteim az Apple eszközökre való fejlesztés terén.
 
 #### Kotlin
 
