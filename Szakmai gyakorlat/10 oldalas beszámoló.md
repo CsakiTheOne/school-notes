@@ -23,11 +23,14 @@
     - [x] Swift
     - [x] Kotlin
     - [x] PHP
-  - [ ] idealApp cross-platform alkalmazáskeret
-    - [ ] feladataim
+  - [ ] munka home office-ban
+    - [ ] fejlődés (péntekek)
+    - [ ] idő követése
+  - idealApp cross-platform alkalmazáskeret
     - [ ] specifikáció
+    - [ ] feladataim
     - [ ] kliens
-      - [ ] fontosabb használt könyvtárak
+      - fontosabb használt könyvtárak
         - [ ] react-native-device-info
         - [ ] react-native-biometrics
     - [ ] szerver
@@ -36,7 +39,7 @@
 
 ## Piszkozat
 
-### Fejlesztéshez használt szoftverek és eszközök
+### Használt szoftverek és eszközök
 
 #### Visual Studio Code
 
@@ -85,7 +88,7 @@ A Firebase egy backend szolgáltatás, amely 2012-ben indult és a Google 2014-b
 
 Az FCM (azaz Firebase Cloud Messaging) szolgáltatás képes értesítéseket küldeni egy API segítségével a mi alkalmazásunkat használó eszközökre, legyen az bármilyen készülék, bármilyen operációs rendszerrel. Ha egy fejlesztő egyszerűen szeretne értesítést küldeni felhasználóinak, ez a legkézenfekvőbb módja, hogy megtegye. Android és iOS rendszereken is megoldható, hogy az alkalmazás akkor is tudjon üzeneteket fogadni, mikor az nincs az előtérben, Android-on mindezt plusz erőforrások használata nélkül, így tökéletes választás volt a projekthez.
 
-### Fejlesztéshez használt programnyelvek
+### Használt programnyelvek
 
 #### JavaScript
 
@@ -111,9 +114,9 @@ A PHP (PHP: Hypertext Preprocessor) a JavaScipt-hez hasonlóan egy 1995-ös webh
 
 ### idealApp cross-platform alkalmazáskeret
 
-#### feladataim
-
 #### specifikáció
+
+#### feladataim
 
 #### kliens
 
@@ -124,6 +127,10 @@ A PHP (PHP: Hypertext Preprocessor) a JavaScipt-hez hasonlóan egy 1995-ös webh
 ###### react-native-biometrics
 
 #### szerver
+
+![Bejelentkezés működése](https://github.com/SelfLender/react-native-biometrics/blob/master/assets/biometricsdiagram.png?raw=true)
+
+[Kép forrása: https://github.com/SelfLender/react-native-biometrics](https://github.com/SelfLender/react-native-biometrics)
 
 ##### cél
 
