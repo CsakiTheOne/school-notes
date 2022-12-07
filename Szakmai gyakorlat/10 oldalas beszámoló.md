@@ -13,7 +13,7 @@
     - [x] React Native
     - [x] XAMPP
     - [x] Postman
-    - [ ] Xcode
+    - [x] Xcode
     - [ ] Android Studio
     - [ ] Firebase
       - [ ] FCM
@@ -40,7 +40,7 @@
 
 #### Visual Studio Code
 
-A Visual Studio Code (vagy gyakran VSCode-ként emlegetett) a Microsoft népszerű, minden platformon elérhető kódszerkesztő programja. A funkciói között megtalálható a hibakeresés, szintaxis kiemelés, intelligens kód kiegészítés, beépített Git és bővíthetőség. A fejlesztők könnyen beállíthatják szinte bármilyen munkához a kiegészítők nagy választéka segítségével, így én is nagyon jól tudtam használni a számomra kiadott feladatok megoldásához.
+A Visual Studio Code (vagy gyakran VSCode-ként emlegetett) a Microsoft népszerű, minden platformon elérhető kódszerkesztő programja. 2015-ben jelentették be és tették közzé a forráskódját. A funkciói között megtalálható a hibakeresés, szintaxis kiemelés, intelligens kód kiegészítés, beépített Git és bővíthetőség. A fejlesztők könnyen beállíthatják szinte bármilyen munkához a kiegészítők nagy választéka segítségével, így én is nagyon jól tudtam használni a számomra kiadott feladatok megoldásához.
 
 ##### Fontosabb bővítmények
 
@@ -51,7 +51,7 @@ A Visual Studio Code (vagy gyakran VSCode-ként emlegetett) a Microsoft népszer
 
 #### Git
 
-A Git a legelterjettebb verziókezelő rendszer az iparban. Nyílt forráskódú, gyors, rengeteg programban megtalálható, mint beépített funkció és nagyban megkönnyíti a munkát biztonsági mentések és csapatmunka szempontjából. Már régóta használom az alkalmazás projektjeimhez, asztali programokhoz és a technikusi szakdolgozatomnál is hatalmas segítségnek bizonyult.
+A Git a legelterjettebb verziókezelő rendszer az iparban. Nyílt forráskódú, gyors, rengeteg programban megtalálható, mint beépített funkció és nagyban megkönnyíti a munkát biztonsági mentések és csapatmunka szempontjából. 2005-ben került kiadásra Linus Torvalds által. Már régóta használom az alkalmazás projektjeimhez, asztali programokhoz, szoftverfejlesztői versenyeknél és a technikusi szakdolgozatomnál is hatalmas segítségnek bizonyult.
 
 #### GitHub
 
@@ -63,13 +63,15 @@ A React Native egy olyan technológia mely lehetővé teszi, hogy a React keretr
 
 #### XAMPP
 
-A XAMPP egy ingyenes szoftver csomag, mely szerverek fejlesztéséhez nyújt hasznos eszközöket. Tartalmaz Apache HTTP szervert PHP támogatással, MariaDB adatbázist és egyéb szoftvereket. A projekt esetében a HTTP szervert használtam, hogy egy prototípus API-t készítsek a fejlesztett alkalmazáshoz.
+A XAMPP egy ingyenes szoftver csomag, mely szerverek fejlesztéséhez nyújt hasznos eszközöket. A munkám során használt szoftverek között ez a legidősebb, 2002-ben adták ki az első verzióját. Tartalmaz Apache HTTP szervert PHP támogatással, MariaDB adatbázist és egyéb szoftvereket. A projekt esetében a HTTP szervert használtam, hogy egy prototípus API-t készítsek a fejlesztett alkalmazáshoz.
 
 #### Postman
 
 A Postman egy API platform, amely segít egy API fejlesztésének minden lépésében. Nagyban leegyszerüsíti a tesztelést és csapatmunkát, gyakran használtam a PHP-ban írt prototípus API készítése közben, hogy ellenőrizzem, hogy megfelelően működik mielőtt az alkalmazást build-elem. Így gyorsan ki tudtam szűrni a hibákat és gyorsan ment a fejlesztés.
 
 #### Xcode
+
+Az Xcode az Apple saját készítésű integrált fejlesztői környezete, amit a macOS, iOS, iPadOS, watchOS és tvOS-re való szoftverek gyártásához használnak. Enélkül nem lehet iOS alkalmazást build-elni, ezért fontos volt, hogy a projektem iPhone készülékekre is meg tudjam valósítani. Viszont ezt a programot csak macOS-re adták ki és Windows számítógép és egy Ubuntu operációs rendszerű laptop birtokában kreatív megoldásokhoz kellett folyamodnom.
 
 #### Android Studio
 
