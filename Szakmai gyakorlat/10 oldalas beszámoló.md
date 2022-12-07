@@ -6,14 +6,14 @@
 - [ ] tartalomjegyzék elkészítése
 - [ ] érdemi rész megírása (min. 10 oldal)
   - [ ] fejlesztéshez használt szoftverek és eszközök
-    - [ ] Visual Studio Code
-    - [ ] Git
-    - [ ] GitHub
-    - [ ] React Native
-    - [ ] XAMPP
-    - [ ] Postman
+    - [x] Visual Studio Code
+      - [x] Fontosabb bővítmények
+    - [x] Git
+    - [x] GitHub
+    - [x] React Native
+    - [x] XAMPP
+    - [x] Postman
     - [ ] Xcode
-      - [ ] Qemu és KVM
     - [ ] Android Studio
     - [ ] Firebase
       - [ ] FCM
@@ -34,22 +34,57 @@
       - [ ] cél
     - [ ] dokumentáció
 
-## Tipp ChatGPT-től
+## Piszkozat
 
-Writing a 10 page document in two days can be a daunting task, but it is possible if you take the right approach. Here are some steps you can follow to help you finish your document on time:
+### Fejlesztéshez használt szoftverek és eszközök
 
-1. Start by setting a clear goal for your document. This will help you stay focused and on track as you write.
+#### Visual Studio Code
 
-2. Create an outline for your document. This will help you organize your thoughts and ideas, and ensure that you cover all of the key points in your document.
+A Visual Studio Code (vagy gyakran VSCode-ként emlegetett) a Microsoft népszerű, minden platformon elérhető kódszerkesztő programja. A funkciói között megtalálható a hibakeresés, szintaxis kiemelés, intelligens kód kiegészítés, beépített Git és bővíthetőség. A fejlesztők könnyen beállíthatják szinte bármilyen munkához a kiegészítők nagy választéka segítségével, így én is nagyon jól tudtam használni a számomra kiadott feladatok megoldásához.
 
-3. Set aside a dedicated block of time for writing each day. This could be a few hours in the morning, or a couple of hours in the evening. The important thing is to find a time when you can focus and write without distractions.
+##### Fontosabb bővítmények
 
-4. Break your writing time into manageable chunks. For example, you might spend the first hour researching and gathering information, the next hour writing the first draft, and the final hour editing and revising your work.
+- ESLint: Ez a bővítmény szintaxis és logikai hibákat ismer fel és emel ki fejlesztés közben.
+- Path Intellisense: Ez a bővítmény az elérési utakat és import-okat ellenőrzi a kódban, hogy helyesen vannak-e megadva, illetve az írásnál segítséget biztosít a gyorsabb munkához.
+- PHP Extension Pack: Ez a kiegészítő gyűjtemény a PHP programnyelvhez ad több segítő eszközt a hatékonyabb munkához, hibakereséshez. Gyakran hasznát vettem a projektem szerver oldalának fejlesztésénél.
+- React Native Tools: Mivel a projektem kliens rész React Native technológiával készült, elengedhetetlen volt ennek a bővítménynek a használata, ami React Native projekt futtatásához, hibakereséséhez integrál eszközöket a VSCode-ba.
 
-5. Don't be afraid to ask for help if you need it. If you're struggling to come up with ideas or organize your thoughts, consider talking to a friend or colleague who can provide guidance or feedback.
+#### Git
 
-6. Be realistic about what you can accomplish in two days. It may not be possible to write a perfect 10 page document in such a short time, so focus on producing a draft that covers the key points and can be revised and improved later.
+A Git a legelterjettebb verziókezelő rendszer az iparban. Nyílt forráskódú, gyors, rengeteg programban megtalálható, mint beépített funkció és nagyban megkönnyíti a munkát biztonsági mentések és csapatmunka szempontjából. Már régóta használom az alkalmazás projektjeimhez, asztali programokhoz és a technikusi szakdolgozatomnál is hatalmas segítségnek bizonyult.
 
-7. Stay motivated and focused on the end goal. Remind yourself why you are writing the document and the impact it will have.
+#### GitHub
 
-With careful planning and focus, you can finish writing your 10 page document in two days. Just remember to stay organized, stay focused, and don't be afraid to ask for help when you need it.
+A GitHub egy weboldal / szolgáltatás, amely a Git-et használó projekteknek biztosít egy online helyet tárolásra, megosztásra és csapatmunkára. A gyakorlati helyemen már ezt használták mikor odakerültem, így könnyen ment a munka az otthonukból dolgozó kollégák között. Mivel már sok projektemnél használtam, nem kellett a rendszert megtanulnom, gördülékenyen be tudtam csatlakozni a GitHub-on létrehozott csoportba és az ott tárolt projektekbe.
+
+#### React Native
+
+A React Native egy olyan technológia mely lehetővé teszi, hogy a React keretrendszer segítségével natív alkalmazásokat fejleszthessünk JavaScript vagy TypeScript nyelven. Mivel a feladatom egy több platformon működő natív alkalmazás készítése, ez volt a tökéletes választás a megvalósításhoz. A kollégák számára is ismerős programnyelven tudtam dolgozni és a munkámat natív alkalmazás formájában tesztelni. A projekt könnyen fordítható iOS-re, Android-ra és Webre is, bár jelen esetben csak az első kettő platform volt a cél.
+
+#### XAMPP
+
+A XAMPP egy ingyenes szoftver csomag, mely szerverek fejlesztéséhez nyújt hasznos eszközöket. Tartalmaz Apache HTTP szervert PHP támogatással, MariaDB adatbázist és egyéb szoftvereket. A projekt esetében a HTTP szervert használtam, hogy egy prototípus API-t készítsek a fejlesztett alkalmazáshoz.
+
+#### Postman
+
+A Postman egy API platform, amely segít egy API fejlesztésének minden lépésében. Nagyban leegyszerüsíti a tesztelést és csapatmunkát, gyakran használtam a PHP-ban írt prototípus API készítése közben, hogy ellenőrizzem, hogy megfelelően működik mielőtt az alkalmazást build-elem. Így gyorsan ki tudtam szűrni a hibákat és gyorsan ment a fejlesztés.
+
+#### Xcode
+
+#### Android Studio
+
+#### Firebase
+
+##### FCM
+
+### Fejlesztéshez használt programnyelvek
+
+#### JavaScript
+
+#### TypeScript
+
+#### Swift
+
+#### Kotlin
+
+#### PHP
