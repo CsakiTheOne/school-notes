@@ -14,8 +14,8 @@
     - [x] XAMPP
     - [x] Postman
     - [x] Xcode
-    - [ ] Android Studio
-    - [ ] Firebase
+    - [x] Android Studio
+    - [x] Firebase
       - [ ] FCM
   - [ ] fejlesztéshez használt programnyelvek
     - [ ] JavaScript
@@ -75,7 +75,11 @@ Az Xcode az Apple saját készítésű integrált fejlesztői környezete, amit 
 
 #### Android Studio
 
+Az Android Studio a hivatalos integrált fejlesztői környezet a Google Android alapú eszközeihez. A JetBrains nevű cég fejlesztette az IntelliJ programjukra építve. Minden asztali operációs rendszeren elérhető. Tartalmazza az ADB-t (Android Debugging Bridge) és a Gradle build eszközöket, amelyek elengedhetetlenek voltak számomra a fejlesztés során, ha éles eszközön próbáltam ki a projektem. Android emulátort is tartalmaz, de jobban preferálom a fizikai eszközöket és direkt fejlesztési célre egy teszt eszközzel is rendelkezem. Az Android Studio környezetet és az Android rendszert már jól ismerem, mert hobbi szinten már 2015 óta készítek egyre komplexebb alkalmazásokat.
+
 #### Firebase
+
+A Firebase egy backend szolgáltatás, amely 2012-ben indult és a Google 2014-ben vásárolt fel. Segítségével több hasznos funkcióval lehet ellátni bármilyen alkalmazást, legyen az natív app, weboldal, asztali program vagy játék. A nyújtott szolgáltatások között van felhasználó kezelés, két féle adatbázis, fájl tárhely, hírdetések, statusztika gyűjtés, összeomlás napló, értesítés kezelés és még sok más. Jelen projektben csak az FCM nevű szolgáltatást vettem igénybe.
 
 ##### FCM
 
