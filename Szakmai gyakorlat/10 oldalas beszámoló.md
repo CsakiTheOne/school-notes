@@ -21,8 +21,8 @@
     - [x] JavaScript
     - [x] TypeScript
     - [x] Swift
-    - [ ] Kotlin
-    - [ ] PHP
+    - [x] Kotlin
+    - [x] PHP
   - [ ] idealApp cross-platform alkalmazáskeret
     - [ ] feladataim
     - [ ] specifikáció
@@ -89,7 +89,7 @@ Az FCM (azaz Firebase Cloud Messaging) szolgáltatás képes értesítéseket k�
 
 #### JavaScript
 
-A JavaSciprt a web programnyelve, de egyre több helyen használják a weben kívül is. Electron-nal asztali alkalmazások fejlesztésére, node.js-sel vagy deno-val szerver oldali logika készítésére és természetesen React Native-vel natív alkalmazások fejlesztésére. A React Native egy új, szinte ismeretlen technológia volt még számomra. Mikor elkezdtem tanulni egyelőre az ismerősebb JavaScript nyelvvel ismertem meg az alapokat. Hamar megértettem, így át is váltottam a cél programnyelvre, amiben is a projektet készítettem el.
+A JavaSciprt a web programnyelve, de egyre több helyen használják a weben kívül is. Electron-nal asztali alkalmazások fejlesztésére, Node.js-sel vagy Deno-val szerver oldali logika készítésére és természetesen React Native-vel natív alkalmazások fejlesztésére. A React Native egy új, szinte ismeretlen technológia volt még számomra. Mikor elkezdtem tanulni egyelőre az ismerősebb JavaScript nyelvvel ismertem meg az alapokat. Hamar megértettem, így át is váltottam a cél programnyelvre, amiben is a projektet készítettem el.
 
 #### TypeScript
 
@@ -103,7 +103,11 @@ A React Native elsődlehes nyelve a JavaScript vagy a TypeScript, de ha az alkal
 
 #### Kotlin
 
+A Kotlin egy JetBrains cég által létrehozott programnyelv, ami a Szentpétervár közelében lévő Kotlin-szigetről kapta a nevét. Képes Java bytecode-ra és JavaScript-re is fordulni és képes együttműködni a Java programnyelvvel. 2011-ben jelent meg és később ez lett az Android alkalmazások fejlesztéséhez elsődlegesen ajánlott programnyelv. A projekt alatt ezzel sem találkoztam gyakran, viszont egy egyszerű prototípus elkészítéséhez tökéletes volt, mert már sok tapasztalatom van ezzel a nyelvvel, gyorsan össze tudok rakni bármilyen egyszerűbb alkalmazást. Az évek során ez lett a kedvenc programozási nyelvem.
+
 #### PHP
+
+A PHP (PHP: Hypertext Preprocessor) a JavaScipt-hez hasonlóan egy 1995-ös webhez készült nyelv. Elsődlegesen szerver oldali logikához használják a mai napig is. Bár a fiatal fejlesztők próbálják elkerülni és új technológiákat fejleszteni a helyére, mint a följebb említett Node.js és Deno, a PHP mostanság is nagyon népszerű sok weboldalon és rendszerben. Nekem is ezt a nyelvet kellett használnom, hogy elkészítsem az alkalmazáshoz tartozó szerver oldali logikát bizonyos funkciókhoz, mint például a biztonságos bejelentkezéshez biometrikus azonosítással.
 
 ### idealApp cross-platform alkalmazáskeret
 
