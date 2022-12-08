@@ -23,9 +23,9 @@
     - [x] Swift
     - [x] Kotlin
     - [x] PHP
-  - [ ] munka home office-ban
+  - [x] munka home office-ban
+    - [x] idő követése
     - [ ] fejlődés (péntekek)
-    - [ ] idő követése
   - idealApp cross-platform alkalmazáskeret
     - [ ] specifikáció
     - [ ] feladataim
@@ -111,6 +111,14 @@ A Kotlin egy JetBrains cég által létrehozott programnyelv, ami a Szentpéterv
 #### PHP
 
 A PHP (PHP: Hypertext Preprocessor) a JavaScipt-hez hasonlóan egy 1995-ös webhez készült nyelv. Elsődlegesen szerver oldali logikához használják a mai napig is. Bár a fiatal fejlesztők próbálják elkerülni és új technológiákat fejleszteni a helyére, mint a följebb említett Node.js és Deno, a PHP mostanság is nagyon népszerű sok weboldalon és rendszerben. Nekem is ezt a nyelvet kellett használnom, hogy elkészítsem az alkalmazáshoz tartozó szerver oldali logikát bizonyos funkciókhoz, mint például a biztonságos bejelentkezéshez biometrikus azonosítással.
+
+### munka home-office-ban
+
+Az Idealap Kft. teljesen home-office-ban működik. Minden alkalmazott a saját otthonából dolgozik. Ennek sok előnye van, de felmerülhet a kérdés, hogy így hogyan ellenőrizhető a munka és hogyan lehet fenntartani a motivációt. Ezekre a kérdésekre a cég egész jó válaszokat adott. Például ahogy a használt eszközöknél említettem, az Idealapnál GitHub-ot használnak. A GitHub számon tartja, hogy ki, mikor és hány sor kódot módosított egy projekten. Viszont az elszámolást az órák alapján végzik, szóval a GitHub nem megfelelő erre a célra.
+
+#### Idő követő rendszer
+
+Az Idealapnak van egy házilag készített rendszere arra, hogy kövessük ki hány órát dolgozott egy feladaton. Ebben a rendszerben kaptam meg én is a feladataim, a specifikációt és sok egyéb információt. Mikor a projekten dolgoztam, tervezgettem, kutattam vagy gondolkodtam, hogy bizonyos problémákat hogyan lehetne megoldani, mindig mértem az időt, amit a nap végén beírtam a rendszerbe. A meeting-eket és bemutatókat is ugyanígy számoltuk.
 
 ### idealApp cross-platform alkalmazáskeret
 
