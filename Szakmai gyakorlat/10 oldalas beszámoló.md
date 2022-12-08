@@ -47,6 +47,8 @@
 
 #### kliens
 
+A kliens alkalmazás egy webview-t tartalmaz és egy gombot, ami a bejelentkezést indítja el. Az alkalmazás forráskódja mellett található a konfigurációs fájl is, amellyel a kollégák könnyen testreszabhatják az appot a különböző projektjeikhez. Például itt adhatják meg a webview kezdő url-jét és hogy mi az API címe, amit a bejelentkezéshez kell használnia.
+
 ##### fontosabb használt könyvtárak
 
 ###### react-native-device-info
