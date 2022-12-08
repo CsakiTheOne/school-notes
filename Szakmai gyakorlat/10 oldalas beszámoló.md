@@ -25,10 +25,11 @@
     - [x] PHP
   - [x] munka home office-ban
     - [x] idő követése
-    - [ ] fejlődés (péntekek)
+    - [x] fejlődés (péntekek)
+    - [x] kommunikáció
   - idealApp cross-platform alkalmazáskeret
-    - [ ] specifikáció
-    - [ ] feladataim
+    - [x] specifikáció
+    - [x] feladataim
     - [ ] kliens
       - fontosabb használt könyvtárak
         - [ ] react-native-device-info
@@ -86,7 +87,7 @@ A Firebase egy backend szolgáltatás, amely 2012-ben indult és a Google 2014-b
 
 ##### FCM
 
-Az FCM (azaz Firebase Cloud Messaging) szolgáltatás képes értesítéseket küldeni egy API segítségével a mi alkalmazásunkat használó eszközökre, legyen az bármilyen készülék, bármilyen operációs rendszerrel. Ha egy fejlesztő egyszerűen szeretne értesítést küldeni felhasználóinak, ez a legkézenfekvőbb módja, hogy megtegye. Android és iOS rendszereken is megoldható, hogy az alkalmazás akkor is tudjon üzeneteket fogadni, mikor az nincs az előtérben, Android-on mindezt plusz erőforrások használata nélkül, így tökéletes választás volt a projekthez.
+Az FCM (azaz Firebase Cloud Messaging) szolgáltatás képes értesítéseket küldeni egy API segítségével a mi alkalmazásunkat használó eszközökre, legyen az bármilyen készülék, bármilyen operációs rendszerrel. Ha egy fejlesztő egyszerűen szeretne értesítést küldeni felhasználóinak, ez a leg kézenfekvőbb módja, hogy megtegye. Android és iOS rendszereken is megoldható, hogy az alkalmazás akkor is tudjon üzeneteket fogadni, mikor az nincs az előtérben, Android-on mindezt plusz erőforrások használata nélkül, így tökéletes választás volt a projekthez.
 
 ### Használt programnyelvek
 
@@ -118,13 +119,49 @@ Az Idealap Kft. teljesen home-office-ban működik. Minden alkalmazott a saját 
 
 #### Idő követő rendszer
 
-Az Idealapnak van egy házilag készített rendszere arra, hogy kövessük ki hány órát dolgozott egy feladaton. Ebben a rendszerben kaptam meg én is a feladataim, a specifikációt és sok egyéb információt. Mikor a projekten dolgoztam, tervezgettem, kutattam vagy gondolkodtam, hogy bizonyos problémákat hogyan lehetne megoldani, mindig mértem az időt, amit a nap végén beírtam a rendszerbe. A meeting-eket és bemutatókat is ugyanígy számoltuk.
+Az Idealapnak van egy házilag készített rendszere arra, hogy kövessük ki hány órát dolgozott egy feladaton. Ebben a rendszerben kaptam meg én is a feladataim, a specifikációt és sok egyéb információt a cégről, napi munka menetéről és néhány eszköz (GitHub és PHPStorm) beállításáról. Mikor a projekten dolgoztam, tervezgettem, kutattam vagy gondolkodtam, hogy bizonyos problémákat hogyan lehetne megoldani, mindig mértem az időt, amit a nap végén beírtam a rendszerbe. A meeting-eket és bemutatókat is ugyanígy számoltuk.
+
+#### Fejlődés és motiváció fenntartása
+
+Mikor az otthon és a munkahely ugyanaz az hely, nehéz motiváltnak maradni. Az Idealapnak van egy jó szokása ennek és a jó hangulatnak fenntartására, amivel még fejlődhetünk is a szakmában.
+
+- A hónap minden péntekje "offline péntek", amikor mindenki a saját dolgával foglalkozik és nem vesz részt online egyeztetéseken. Ez alól csak a cégvezetés kivétel, ha a partner pénteken akar meetingelni. A szabad péntek szabad.
+- Minden hónapban van egy "tanulós péntek", amikor valami olyat kell csinálni, amitől ügyesebbek és / vagy boldogabbak leszünk a munka vagy a szakma terén. A tanulós péntekről pár soros összefoglalót kell adni a kollégáknak a közös céges chat-en vagy emailben, vagy prezentálni online a többieknek.
+- Illetve minden hónap utolsó péntekje "szabad péntek", amikor csak ügyeletet kell biztosítani, de nem kötelező dolgozni. Ez nem számít szabadságnak.
+- Amikor ledolgozandó munkanap szombatra esik, az szabad pénteknek számít
+
+Szerintem ezek nagyon jó szokások és mindig látszott, hogy jó a hangulat a csoportban.
+
+#### kommunikáció
+
+A cégnél elsődlegesen a Google szolgáltatásokat használják. Google Meet, Gmail, a Gmail-be épített Google Chat. Chat-en értem el a cég vezetőjét is, ahol megtervezett időközönként megbeszéltük a projekttel való haladást és egyéb kisebb dolgokat.
+
+Hosszabb megbeszélésekhez vagy bemutatókhoz előre szervezett eseményt adtunk hozzá a közös Google Naptárhoz, amely egy Meet linket is tartalmazott. Ezeknél a bemutatóknál egyszerűen képernyő osztással körbe tudtam vezetni a vezetőt a projekt aktuális állapotáról.
 
 ### idealApp cross-platform alkalmazáskeret
 
 #### specifikáció
 
+A cél egy olyan alkalmazás létrehozása React Native technológiával, amelybe bármilyen webalkalmazás beilleszthető és el tudja látni natív funkciókkal. Az elvárt funkciók:
+
+- biztonságos bejelentkezés biometrikus azonosítás  formájában az eszköz elérhető szenzoraival (iOS eszközök esetén TouchID vagy FaceID és Android esetén ujjlenyomat vagy arcfelismerés)
+- értesítések fogadása egy szerverről még akkor is, amikor az alkalmazás nem fut az előtérben.
+
+Fontos, hogy az alkalmazás mindkét fő telefonos operációs rendszeren ugyanúgy működjön és egy kódbázisból build-elhető legyen. React Native technológiát választottuk, hisz ez a leg kézenfekvőbb és legelterjetdebb módja egy cross-platform alkalmazás elkészítésének. A fő programnyelv pedig TypeScript a modern funkciói, típus biztonság és a kollégák tapasztalata miatt.
+
 #### feladataim
+
+A hosszútávú feladatom az alkalmazás elkészítése a följebb leírt specifikáció alapján. Feladataim közé tartozott még:
+
+- elsajátítani az elvárt technológiákat és programnyelveket, hogy tudjak velük dolgozni
+- kutatást végezni, hogy egyáltalán kivitelezhető-e a terv
+  - ha igen, hogyan?
+  - ha nem, miért nem és hogyan lehet az akadályt elkerülni?
+- beszámolni bizonyos időközönként a haladásomról és a projekt aktuális állapotáról
+
+A React Native és TypeScript nyelv tanulásához a cégtől segítséget is kaptam. Egy Udemy kurzust követtem az első hetek során. Így könnyen el tudtam kezdeni a projekt fejlesztését.
+
+A kutatásokat és akadályokra megoldás keresését önállóan végeztem és szinte mindig megtaláltam a módot, hogy hogyan kivitelezhető az adott funkció. A megoldásaim mindig kipróbáltam egy prototípus alkalmazásban és a megbeszéléseken is mindig beszámoltam ezekről.
 
 #### kliens
 
