@@ -53,7 +53,11 @@ A kliens alkalmazás egy webview-t tartalmaz és egy gombot, ami a bejelentkezé
 
 ###### react-native-device-info
 
+Az alkalmazásnak és a szervernek tudnia kell, hogy melyik biztonsági kulcs kié és a jövőben a felhasználók beállításait is valamihez kötni kell. Ebben segít a react-native-device-info nevű könyvtár. A segítségével a felhasználó eszközének tudjuk lekérni bizonyos adatait és azt azonosítónak használni vagy ezekből azonosítót generálni. Az utóbbira Android rendszeren van szükség, mert a Google Play áruház szabályai között megtalálható, hogy az egyedi eszköz azonosítót nem használhatjuk nagyon sok esetben.
+
 ###### react-native-biometrics
+
+Ez a könyvtár a biometrikus azonosításért és biztonságos bejelentkezésért felelős. Nem csaj az iOS és Android eszközök szenzoraihoz nyújt hozzáférést, ezen kívül SHA256-os kulcsokat is tud generálni, amelyekkel biztonságossá tehetjük a bejelentkezés folyamatát a megfelelő szerver oldali kóddal.
 
 #### szerver
 
